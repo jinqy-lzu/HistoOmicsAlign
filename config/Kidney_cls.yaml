@@ -1,0 +1,29 @@
+epochs: 100
+gene_dir: /home/user1/bingli/Kidney/cnv_rna_mut_sub_slide_scale.csv
+img_dir: /home/user1/bingli/Kidney/pt_file
+best_model_path: /home/user1/bingli/gene_histop_v1/Kidney_results
+schedule: [10, 20, 30]
+opt: adamw
+decay-epochs: 10
+opt-eps: 1.0e-8
+opt-no-filter: False
+sgd-no-nesterov: False
+dyrep: False
+sched: cosine
+decay-rate: 0.1
+decay_by_epoch: False
+
+model-ema: False
+model-ema-decay: 0.99996
+warmup-epochs: 0
+warmup-lr: 5.0e-7
+batch_size: 16
+lr: 5.0e-5
+min-lr: 5.0e-6
+lr_decay: 0.1
+gpu_id: '1'
+momentum: 0.9
+weight_decay: 1.0e-4
+classes: 3
+train_ration: 0.8
+lambda_reg: 1.0e-6
