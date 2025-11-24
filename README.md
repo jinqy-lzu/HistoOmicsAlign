@@ -27,8 +27,8 @@ The code base structure is explained below:
 - **feature_fusion.py**: Contains PyTorch model definitions for fusion.
 - **dataset.py**: Contains the PyTorch DatasetLoader definition for loading multimodal data.
 - **optim.py**: Build optimizer.
-- **model_ema**: Script for Exponential Moving Average Model(EMA). The EMA is a technique used for smoothing time series data. It reduces noise and volatility by weighted averaging the data, thereby extracting trends from the data. In deep learning, EMA is often used in the process of updating and optimizing model parameters. It can help the model converge more stably during the training process and improve its generalization ability.
-- **misc**: Contains scripts for the checkpoint manager
+- **model_ema.py**: Script for Exponential Moving Average Model(EMA). The EMA is a technique used for smoothing time series data. It reduces noise and volatility by weighted averaging the data, thereby extracting trends from the data. In deep learning, EMA is often used in the process of updating and optimizing model parameters. It can help the model converge more stably during the training process and improve its generalization ability.
+- **misc.py**: Contains scripts for the checkpoint manager
 
 The directory structure for your multimodal dataset should look similar to the following:
 ```bash
