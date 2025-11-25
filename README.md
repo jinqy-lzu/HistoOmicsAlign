@@ -55,11 +55,11 @@ Here are example commands for training  multimodal networks.
 Example shown below for training a survival model and saving the model checkpoints + predictions at the end. We use the YAML file of the specified tumor for model training. In this example, we will train a survival risk prediction model on Low Grade Glioma tumor(LGG) data samples.
 
 ```
-python main.py --config ./config/Brain-LGG.ymal
+python main.py --config ./config/Brain-LGG_surv.ymal
 ```
 ### Classification Model
 Example shown below for training a classification model and saving the model checkpoints + predictions at the end. We use the YAML file of the specified tumor for model training. In this example, we use brain tumor data to train a classification model that can distinguish different subtypes(Low-Grade Glioma (LGG) and Glioblastoma Multiforme (GBM)).
 
 ```
-python main.py --config ./config/Brain.ymal
+python main.py --config ./config/Brain_cls.ymal
 ```
