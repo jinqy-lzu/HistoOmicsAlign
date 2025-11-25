@@ -1,7 +1,7 @@
 epochs: 100
-gene_dir: /home/user1/bingli/BRCA/cnv_rna_mut_sub_slide_scale.csv
-img_dir: /home/user1/bingli/BRCA/pt_file
-best_model_path: /home/user1/bingli/gene_histop_v1/BRCA_results
+gene_dir: ./BRCA/cnv_rna_mut_sub_slide_scale.csv
+img_dir: ./BRCA/pt_file
+best_model_path: ./BRCA_results
 opt: adamw
 decay-epochs: 10
 opt-eps: 1.0e-8
