@@ -1,7 +1,7 @@
 epochs: 100
-gene_dir: /home/user1/bingli/Lung/cnv_rna_mut_sub_slide_scale.csv
-img_dir: /home/user1/bingli/Lung/pt_file
-best_model_path: /home/user1/bingli/gene_histop_v1/Lung_results
+gene_dir: ./Lung/cnv_rna_mut_sub_slide_scale.csv
+img_dir: ./Lung/pt_file
+best_model_path: ./Lung_results
 schedule: [10, 20, 30]
 opt: adamw
 decay-epochs: 10
